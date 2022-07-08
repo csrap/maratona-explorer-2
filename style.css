@@ -24,12 +24,6 @@ body.pink {
   --primary-colo-dark: #a61e4d;
 }
 
-/* body.pink-dark {
-  --bg-color: #1f000b;
-  --text-color: #ffffff;
-  --primary-color: #d6336c;
-  --primary-colo-dark: #a61e4d;
-} */
 
 a {
   text-decoration: none;
