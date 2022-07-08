@@ -1,54 +1,50 @@
 * {
-  margin:0; 
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
   /*variables*/
-  --bg-color: #EDF2FF;
-  --text-color: #00082F;
-  --primary-color: #4263EB; 
-  --primary-colo-dark: #364FC7; 
-
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --primary-color: #4263eb;
+  --primary-colo-dark: #364fc7;
 }
 
 body.dark-blue {
-  --bg-color: #00082F;
-  --text-color: #FFFFFF; 
+  --bg-color: #00082f;
+  --text-color: #ffffff;
 }
 
-/* body.pink {
+body.pink {
   --bg-color: #fff0f6;
-  --text-color: #1f000B; 
-  --primary-color: #D6336C; 
-  --primary-colo-dark: #A61E4D; 
-} */
-
-body.pink-dark {
-  --bg-color: #1F000B;
-  --text-color: #FFFFFF; 
-  --primary-color: #D6336C; 
-  --primary-colo-dark: #A61E4D; 
+  --text-color: #1f000b;
+  --primary-color: #d6336c;
+  --primary-colo-dark: #a61e4d;
 }
 
+/* body.pink-dark {
+  --bg-color: #1f000b;
+  --text-color: #ffffff;
+  --primary-color: #d6336c;
+  --primary-colo-dark: #a61e4d;
+} */
 
 a {
   text-decoration: none;
-
 }
-
 
 body {
   background: var(--bg-color);
-  color: var(--text-color); 
+  color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
 
 .container {
   text-align: center;
   width: 300px;
-  margin: 60px auto; 
+  margin: 60px auto;
 }
 
 img {
@@ -60,29 +56,26 @@ img.avatar {
   width: 100px;
   height: 100px;
   padding: 3.7px;
-  border: var(--primary-color) solid 4px; 
+  border: var(--primary-color) solid 4px;
 }
 
 h1 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-size: 32px;
-   
 }
 
 .username {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
-  opacity: 0.8; 
+  opacity: 0.8;
   font-size: 18px;
 }
 
 ul {
   list-style: none;
-  margin: 48px 0; 
+  margin: 48px 0;
 }
-
-
 
 ul li a {
   height: 53px;
@@ -90,24 +83,23 @@ ul li a {
   align-items: center;
   justify-content: center;
   background: var(--primary-color);
-  color: white; 
+  color: white;
   text-transform: uppercase;
   font-size: 14px;
 
   margin-bottom: 16px;
   border-radius: 6px;
 
-  transition: background 400ms; 
+  transition: background 400ms;
 }
 
 ul li a:hover {
   background: var(--primary-colo-dark);
-  
 }
 
 footer {
   font-weight: 500;
-  font-size: 12px; 
+  font-size: 12px;
   opacity: 0.6;
   transition: opacity 400ms;
 }
@@ -117,6 +109,24 @@ footer:hover {
 }
 
 footer a {
-  color: var(--text-color); 
+  color: var(--text-color);
 }
+
+.dark-mode {
+  background: #1f000b;
+  color: #ffffff;
+  --primary-color: #d6336c;
+  --primary-colo-dark: #a61e4d;
+}
+
+button.toogle {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: pink;
+  cursor: pointer;
+  border: none;
+}
+
 

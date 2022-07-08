@@ -19,9 +19,13 @@
 <body class="pink">
 
   <div class="container">
+
     <img class="avatar" src="https://github.com/csrap.png" alt="Imagen do César" />
     <h1>César Augusto Pinto</h1>
     <p class="username">@csrpi</p>
+    <button class="toogle" onclick="myFunction()"></button>
+
+
 
     <ul>
       <li>
@@ -32,8 +36,17 @@
       </li>
     </ul>
 
-    <footer>Feito com 💚 por César Augusto Pinto</footer>
+    <footer>Feito com 💕 por César Augusto Pinto</footer>
   </div>
+
+
+
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 
 
 
